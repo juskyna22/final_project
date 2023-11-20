@@ -1,0 +1,33 @@
+Task 2: Create an emotion detection application using the Watson NLP library
+The Watson NLP libraries are embedded. Therefore, there is no need of importing them to your code. You only need to send a post request to the correct function in the library and receive the output.
+
+1. For this project, you'll use the Emotion Predict function of the Watson NLP Library. For accessing this function, the URL, the headers, and the input json format is as follows.
+
+1  URL: 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
+2  Headers: {"grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"}
+3  Input json: { "raw_document": { "text": text_to_analyse } }
+
+Note that the text_to_analyze is being used as a variable that holds the actual written text that needs to be analyzed.
+
+2. Create a file named emotion_detection.py in final_project folder.
+
+3. In the emotion_detection.py file, write the function to run emotion detection using the appropriate Emotion Detection function. Name this function emotion_detector.
+
+Note: Assume that that text to be analyzed is passed to the function as an argument and is stored in the variable text_to_analyze. The value being returned must be the text attribute of the response object as received from the Emotion Detection function.
+
+4. Take a screenshot of the code you write and save it as 2a_emotion_detection.png.
+
+5. The application should now be importable using Python shell. Open a python3.11 shell.
+
+6. Import the application.
+
+7. After you successfully import the application, test your application with the text: “I love this new technology.”
+
+8. Take a screenshot of the terminal with all three steps included in it along with the final output. Name this file 2b_application_creation.png.
+
+Note: In case the python shell shows an error ModuleNotFoundError: No module named 'requests', you may install the requests library to your IDE using the following command on the terminal.
+
+
+1   python3.11 -m pip install requests
+
+Previous
