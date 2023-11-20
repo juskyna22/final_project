@@ -1,0 +1,27 @@
+1. Convert the response text into a dictionary using the json library functions.
+
+Note the content formatting in this dictionary.
+
+2. Extract the required set of emotions, including anger, disgust, fear, joy and sadness, along with their scores.
+
+3. Write the code logic to find the dominant emotion, which is the emotion with the highest score.
+
+4. Then, modify the emotion_predictor function to return the following output format.
+
+
+1  {
+2  'anger': anger_score,
+3  'disgust': disgust_score,
+4  'fear': fear_score,
+5  'joy': joy_score,
+6  'sadness': sadness_score,
+7  'dominant_emotion': '<name of the dominant emotion>'
+8  }
+
+5. Take a screenshot of the modified function code and save it as 3a_output_formatting.png.
+
+6. Test the application in the python3.11 shell again, with the statement I am so happy I am doing this.
+
+7. Verify that the response received has the dominant emotion is joy.
+
+8. Take a screenshot of the output from the terminal shell and save it as 3b_formatted_output_test.png.
