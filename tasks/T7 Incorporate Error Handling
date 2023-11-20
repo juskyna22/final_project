@@ -1,0 +1,18 @@
+Task 7: Incorporate Error handling
+Incorporate the error handling capability in your function emotion_detector to manage blank entries from users, i.e. running the application without any input.
+
+1. Access the status_code attribute of the server response to correctly display the system response for blank entries.
+
+For status_code = 400, make the function return the same dictionary, but with values for all keys being None.
+
+2. Take a screenshot of the modified function and name it 7a_error_handling_function.png.
+
+3. Modify server.py to incorporate error handling when the dominant_emotion is None. In this scenario, the response should display a message Invalid text! Please try again!.
+
+4. Take a screenshot of this edited file and save it as 7b_error_handling_server.png.
+
+5. Deploy the application and test it for blank entries.
+
+6. The output should display the error message, Invalid text! Please try again!.
+
+7. Take a screenshot of the output displaying the error message and name it 7c_error_handling_interface.png
