@@ -1,0 +1,20 @@
+Task 4: Package the application
+
+In this task, you will package the application created in the previous steps.
+
+1.  Perform the relevant steps in creation of the package. Set the name of the package to EmotionDetection.
+
+2  Once completed, take a screenshot of the contents of the init file along with the final folder structure of the final_project directory.
+
+   Make sure to fit both of the images into a single screenshot and name it 4a_packaging.png.
+
+3.  To make sure that the EmotionDetection is a valid package, you need to test the package. To do this:
+    Run a python shell in the terminal.
+
+    Import the emotion_detector function from the package.
+
+    If the package is created accurately, you will not receive any error messages.
+
+    Test run the function again with the statement I hate working long hours.
+    Verify that the output displays the dominant emotion as anger.
+4. Take a screenshot of this terminal output and save it as 4b_packaging_test.png.
