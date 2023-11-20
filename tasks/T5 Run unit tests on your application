@@ -1,0 +1,20 @@
+Task 5: Run unit tests on your application
+
+With a functional application being available, you now need to run unit tests to validate the application output.
+
+1. To run unit tests, create a new file, test_emotion_detection.py that calls the required application function from the package and tests it for the following statements and dominant emotions.
+
+Statement	Dominant Emotion
+I am glad this happened	joy
+I am really mad about this	anger
+I feel disgusted just hearing about this	disgust
+I am so sad about this	sadness
+I am really afraid that this will happen	fear
+
+2. Once complete, take a screenshot of the code and save it as 5a_unit_testing.png.
+
+3. Execute the test_emotion_detection.py file on terminal.
+
+4. Check the unit test output to verify that the unit tests have passed.
+
+5. Take a screenshot of the terminal output of this execution and save it as 5b_unit_testing_result.png.
