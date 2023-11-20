@@ -1,0 +1,9 @@
+Task 8: Run static code analysis
+
+Finally, its time to check code compliance.
+
+1. Run static code analysis on the code you created. Use PyLint library on server.py file and try to generate a 10/10 score. You will have to modify the server.py file to get this score. Take a snapshot of the modified file and name it as 8a_server_modified.png.
+
+Note: The difference between a 9/10 score and a 10/10 score may be use of Docstrings. Include Docstrings in all functions of your codes.
+
+2. Take a screenshot of a 10/10 output on the terminal after running static code analysis. Name the screenshot as 8b_static_code_analysis.png.
